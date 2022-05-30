@@ -10,15 +10,15 @@ class Path
     public:
         Path() = default;
         Path(const TVertex from, const TVertex to, const TEdge edge) : source(from), destination(to), edge(edge) {}
-        TVertex GetSource() const
+        TVertex Source() const
         {
             return source;
         }
-        TVertex GetDestination() const
+        TVertex Destination() const
         {
             return destination;
         }
-        TEdge GetEdge() const
+        TEdge Edge() const
         {
             return edge;
         }
